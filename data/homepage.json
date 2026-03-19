@@ -1,0 +1,37 @@
+{
+  "heroBadge": "ISA & TRAQ Certified Arborist \u2014 Simcoe County",
+  "heroHeadline": "Tree Removal & Arborist Services in Simcoe County",
+  "heroSub": "Tree removal, pruning, TRAQ risk assessment, pest treatment and arborist reports for Alliston, Barrie, Bradford and surrounding area.",
+  "heroBody": "Need a tree removed, properly pruned or professionally assessed for safety? You deal directly with Jay from first visit to final cleanup. ISA & TRAQ certified, fully insured, no subcontractors and every quote is provided in writing before the job starts.",
+  "heroPrimaryCtaText": "Get a Free Estimate",
+  "heroPrimaryCtaLink": "contact.html",
+  "heroSecondaryCtaText": "Call 705-220-5780",
+  "heroSecondaryCtaLink": "tel:7052205780",
+  "heroMicroItems": [
+    "ISA & TRAQ Certified",
+    "Fully Insured",
+    "Free On-Site Estimates",
+    "No Subcontractors"
+  ],
+  "heroCardTitle": "Call Jay Directly",
+  "heroCardItems": [
+    {
+      "title": "Tree Removal & Stump Grinding",
+      "text": "Any size, near structures, full cleanup \u2014 Alliston to Barrie"
+    },
+    {
+      "title": "Tree Trimming & Pruning",
+      "text": "ISA-standard cuts that improve the tree, not just the look"
+    },
+    {
+      "title": "Pest & Disease Control",
+      "text": "Diagnose first, treat right \u2014 licensed applicator"
+    },
+    {
+      "title": "Arborist Reports & Risk Assessment",
+      "text": "Permits, insurance, liability concerns & municipal tree bylaw applications"
+    }
+  ],
+  "heroCardCtaText": "Free on-site estimates \u2022 705-220-5780",
+  "heroCardCtaLink": "tel:7052205780"
+}

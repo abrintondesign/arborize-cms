@@ -1,0 +1,55 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+publish_mode: editorial_workflow
+
+collections:
+  - name: "settings"
+    label: "Site Settings"
+    files:
+      - file: "data/site-settings.json"
+        label: "Global Settings"
+        name: "site_settings"
+        fields:
+          - { label: "Business Name", name: "businessName", widget: "string" }
+          - { label: "Phone (display)", name: "phoneDisplay", widget: "string" }
+          - { label: "Phone link", name: "phoneHref", widget: "string" }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Email link", name: "emailHref", widget: "string" }
+          - { label: "Top bar location", name: "topBarLocation", widget: "string" }
+          - { label: "Top bar hours", name: "topBarHours", widget: "string" }
+          - { label: "Footer tagline", name: "footerTagline", widget: "text" }
+          - { label: "Service areas short", name: "serviceAreasShort", widget: "text" }
+
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "data/homepage.json"
+        label: "Homepage"
+        name: "homepage"
+        fields:
+          - { label: "Hero badge", name: "heroBadge", widget: "string" }
+          - { label: "Hero headline", name: "heroHeadline", widget: "string" }
+          - { label: "Hero subhead", name: "heroSub", widget: "text" }
+          - { label: "Hero body", name: "heroBody", widget: "text" }
+          - { label: "Primary CTA text", name: "heroPrimaryCtaText", widget: "string" }
+          - { label: "Primary CTA link", name: "heroPrimaryCtaLink", widget: "string" }
+          - { label: "Secondary CTA text", name: "heroSecondaryCtaText", widget: "string" }
+          - { label: "Secondary CTA link", name: "heroSecondaryCtaLink", widget: "string" }
+          - label: "Hero micro items"
+            name: "heroMicroItems"
+            widget: "list"
+            field: { label: "Item", name: "item", widget: "string" }
+          - { label: "Hero card title", name: "heroCardTitle", widget: "string" }
+          - label: "Hero card items"
+            name: "heroCardItems"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Text", name: "text", widget: "text" }
+          - { label: "Hero card CTA text", name: "heroCardCtaText", widget: "string" }
+          - { label: "Hero card CTA link", name: "heroCardCtaLink", widget: "string" }
